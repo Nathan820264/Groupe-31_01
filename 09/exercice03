@@ -1,0 +1,6 @@
+texte = input("Entrez un texte : ").lower()
+mot = input("Not à chercher : ").lower()
+
+compte = texte.count(mot)
+
+print(f"le mot '(mot)' apparaît {compte} fois.")
