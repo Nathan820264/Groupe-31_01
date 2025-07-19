@@ -1,0 +1,7 @@
+distance = float(input("Distance (km) : "))
+temps = float(input("Temps (heures) : "))
+
+kmh = distance / temps
+ms = (distance * 1000) / (temps * 3600)
+
+print(f"Vitesse : {kmh:.2f} km/h ou {ms:.2f} m/s")
