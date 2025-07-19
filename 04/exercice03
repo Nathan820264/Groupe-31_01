@@ -1,0 +1,8 @@
+fievre = input("Avez-vous de la fièvre ? (oui/non) : ").lower()
+
+if fievre == "oui":
+    douleur = input("Avez-vous des douleurs ? (oui/non) : ").lower()
+    print("Consulter un médecin.")
+else:
+    toux = input("Avez-vous une toux ? (oui/non) : ").lower()
+    print("Repos conseillé.")
