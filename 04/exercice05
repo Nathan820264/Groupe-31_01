@@ -1,0 +1,13 @@
+plat = input("Cloisissez un plat (viamée/poisson/végétarien) : ").lower()
+
+if plat == "viamée":
+    cuisson = input("Cuisson (saignant/a point/bien cuit) : ").lower()
+    print("Nous avez choisi une viande (cuisson).")
+elif plat == "poisson":
+    sauce = input("Sauce (citron/beurre) : ").lower()
+    print("Nous avez choisi un poisson sauce (sauce).")
+elif plat == "végétarien":
+    choix = input("Souhaitez-vous une salade ou des pâtes ? ");
+    print("Nous avez choisi ! (choix).")
+else:
+    print("Choix invalide.")
