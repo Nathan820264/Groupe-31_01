@@ -1,0 +1,12 @@
+01.exercice01.py
+
+nom = "Casque Bluetooth"
+prix = 150.0
+stock = 35
+remise = 0.15  # 15% de remise
+
+prix_final = prix * (1 - remise)
+
+print(f"Produit : {nom}")
+print(f"Prix : {prix} € → {prix_final:.2f} € après remise")
+print(f"Stock : {stock} unités")
